@@ -112,66 +112,70 @@
    
     class CfgSounds
     {
-        class BEEP_SOUND
+        class BEEPS
         {
-            name="BEEP_SOUND";
-            sound[]=
+            class BEEP_SOUND
             {
-                "RFReceiver\addons\sounds\beep.ogg",
-                1,
-                1
+                name="BEEP_SOUND";
+                sound[]=
+                {
+                    "RFReceiver\sounds\beep.ogg",
+                    1,
+                    1
+                };
+                titles[]={};
+                volume=1;
             };
-            titles[]={};
-            volume=1;
-        };
-        class BEEP_SOUND_FAST
-        {
-            name="BEEP_SOUND_FAST";
-            sound[]=
+            class BEEP_SOUND_FAST
             {
-                "RFReceiver\addons\sounds\beep.ogg",
-                1,
-                1
+                name="BEEP_SOUND_FAST";
+                sound[]=
+                {
+                    "RFReceiver\sounds\beep.ogg",
+                    1,
+                    1
+                };
+                titles[]={};
+                volume=1;
             };
-            titles[]={};
-            volume=1;
-        };
-        class BEEP_SOUND_FASTEST
-        {
-            name="BEEP_SOUND_FASTEST";
-            sound[]=
+            class BEEP_SOUND_FASTEST
             {
-                "RFReceiver\addons\sounds\beep.ogg",
-                1,
-                1
+                name="BEEP_SOUND_FASTEST";
+                sound[]=
+                {
+                    "RFReceiver\sounds\beep.ogg",
+                    1,
+                    1
+                };
+                titles[]={};
+                volume=1;
             };
-            titles[]={};
-            volume=1;
-        };
-        class TURNED_ON_SOUND
-        {
-            name="TURNED_ON_SOUND";
-            sound[]=
+            class TURNED_ON_SOUND
             {
-                "RFReceiver\addons\sounds\on.ogg",
-                1,
-                1
+                name="TURNED_ON_SOUND";
+                sound[]=
+                {
+                    "RFReceiver\sounds\on.ogg",
+                    1,
+                    1
+                };
+                titles[]={};
+                volume=1;
             };
-            titles[]={};
-            volume=1;
-        };
-        class TURNED_OFF_SOUND
-        {
-            name="TURNED_OFF_SOUND";
-            sound[]=
+            class TURNED_OFF_SOUND
             {
-                "RFReceiver\addons\sounds\off.ogg",
-                1,
-                1
+                name="TURNED_OFF_SOUND";
+                sound[]=
+                {
+                    "RFReceiver\sounds\off.ogg",
+                    1,
+                    1
+                };
+                titles[]={};
+                volume=1;
             };
-            titles[]={};
-            volume=1;
-        };
+        }
+        
     };
     
     
